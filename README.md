@@ -1,4 +1,4 @@
-# flask-deploy_test
+# flask-deploy-test
 Test deployment of Flask projects to Heroku
   
 go to heroku : https://deploy-test-0001.herokuapp.com/  
