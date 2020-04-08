@@ -11,17 +11,7 @@ go to blog : https://yeowool0217.tistory.com/616
 -   heroku 회원가입/설치heroku를 사용하기 위해 heroku 회원가입과 heroku CLI를 설치합니다.
 -   Flask 설치 / gunicorn 설치
 
-[
-
-The Heroku CLI | Heroku Dev Center
-
-The Heroku CLILast updated 20 March 2020 The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. Download and install The Heroku CLI requires Git, the p
-
-devcenter.heroku.com
-
-
-
-](https://devcenter.heroku.com/articles/heroku-cli)
+(https://devcenter.heroku.com/articles/heroku-cli)
 
 ## **2\. 가상환경 만들기**
 
@@ -41,7 +31,7 @@ devcenter.heroku.com
 
 방금 생성한 가상 환경의 **Scripts/python.exe**를 선택합니다.
 
-[##_Image|kage@ciOJ2n/btqDeJnH2Vz/nbfbqUjayhhKgndA57qY91/img.png|alignLeft|data-origin-width="0" data-origin-height="0"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FciOJ2n%2FbtqDeJnH2Vz%2FnbfbqUjayhhKgndA57qY91%2Fimg.png)
 
 이제 가상 환경 위에서 코드가 돌아갈 수 있도록 활성화시켜줘야 합니다.
 
@@ -49,12 +39,10 @@ devcenter.heroku.com
 
 아래와 같이 (env) 혹은 자신이 정한 파일명이 터미널에 명령줄 맨 앞에 출력되어야 합니다.
 
-[##_Image|kage@Vqovf/btqDecDDP4v/XpWhNYe1Sxltam46NhQWl0/img.png|alignLeft|data-origin-width="437" data-origin-height="32"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FVqovf%2FbtqDecDDP4v%2FXpWhNYe1Sxltam46NhQWl0%2Fimg.png)
 반대로 비활성화할 때는 터미널 창에 **deactivate**를 입력합니다.
 
-[##_Image|kage@Rdxpz/btqDiaqroqN/yYvtYk7TxIUt2ki9mLIYaK/img.png|alignLeft|data-origin-width="0" data-origin-height="0"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FRdxpz%2FbtqDiaqroqN%2FyYvtYk7TxIUt2ki9mLIYaK%2Fimg.png)
 가상 환경을 사용하면 프로젝트가 독립성을 가지게 됩니다.
 
 \*global 환경에서 사용했던 라이브러리는 사용할 수 없기 때문에 다시 설치해야 합니다.
@@ -69,12 +57,10 @@ git허브에 push 되지 않도록 .gitignore에 설정하는 과정이 필요�
 
 아래와 같이 프로젝트 폴더에 .gitignore 파일을 생성합니다.
 
-[##_Image|kage@4OAjf/btqDeIWG95T/5qNXd6uMKKxkWuEJrsbJKk/img.png|alignLeft|data-origin-width="0" data-origin-height="0"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F4OAjf%2FbtqDeIWG95T%2F5qNXd6uMKKxkWuEJrsbJKk%2Fimg.png)
 그리고 git에 push하지 않을 예외의 것들을 입력합니다.
 
-[##_Image|kage@bg7z7b/btqDeUvMnFr/Hm7eJ38KL9UxpEQ0timsRk/img.png|alignLeft|data-origin-width="0" data-origin-height="0"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fbg7z7b%2FbtqDeUvMnFr%2FHm7eJ38KL9UxpEQ0timsRk%2Fimg.png)
 env 파일과 .vscode는 push 할 필요가 없기 때문에 .gitignore에 입력해줬습니다.
 
 ## **4\. heroku에 필요한 파일들**
@@ -111,8 +97,7 @@ if __name__ == '__main__':
 
 ****requirements.txt**** 파일에는 아래와 같이 현재 프로젝트에 필요한 모든 라이브러리가 정리되어 있습니다.
 
-[##_Image|kage@bN6dM9/btqDf21fmLY/xQpj2WaZGxxWb2UXf3tRvK/img.png|alignLeft|data-origin-width="0" data-origin-height="0"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbN6dM9%2FbtqDf21fmLY%2FxQpj2WaZGxxWb2UXf3tRvK%2Fimg.png)
 > **Procfile 생성**
 
 VScode에서 현재 프로젝트 폴더에 Procfile을 만들어 줍니다.
