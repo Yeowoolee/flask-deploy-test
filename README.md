@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
 아래 명령어를 터미널에 입력해서 **requirements.txt** 파일을 생성합니다.
 
-**pip freeze > requirements.txt**
+`**pip freeze > requirements.txt**`
 
 ****requirements.txt**** 파일에는 아래와 같이 현재 프로젝트에 필요한 모든 라이브러리가 정리되어 있습니다.
 
